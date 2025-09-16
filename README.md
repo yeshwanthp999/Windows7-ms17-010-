@@ -51,7 +51,7 @@ The first step was to identify the live machines on the network using `netdiscov
 * Using an interactive Meterpreter session, I opened a native Windows shell, created a directory `C:\You have been Hacked`, and wrote a short test message into `works.txt` to confirm a successful write operation. I then verified the file's presence.
 ![File creation confirmation](Screenshots/privilegeescalation8.png)
 
-* I used the `getuid` command to show that the session was running with elevated privileges as `NT AUTHORITY\SYSTEM`.
+* wrote a short test message into works.txt document - inside C:\You have been Hacked
 ![getuid output](Screenshots/privilege%20escalation%209.png)
 
 ---

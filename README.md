@@ -52,7 +52,7 @@ The first step was to identify the live machines on the network using `netdiscov
 ![File creation confirmation](Screenshots/privilegeescalation8.png)
 
 * I used the `getuid` command to show that the session was running with elevated privileges as `NT AUTHORITY\SYSTEM`.
-![getuid output](Screenshots/privilegeescalation9.png)
+![getuid output](Screenshots/privilege%20escalation%209.png)
 
 ---
 

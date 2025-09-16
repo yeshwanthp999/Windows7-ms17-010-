@@ -13,10 +13,10 @@ The target system was a Windows 7 operating system installed on a virtual box, n
 The first step was to identify the live machines on the network using `netdiscover` and perform a full scan with `Nmap` to find open ports and initial OS/service detection.
 
 * I got the IP address of the target machine using the `ipconfig` command.
-![ipconfig output](Screenshots/scanning1.png)
+![ipconfig output](Screenshots/Scanning1.png)
 
 * Then, I used `netdiscover` to find the live machines in the network, where I was able to see the target machine's IP.
-![netdiscover output](Screenshots/scanning1.png)
+![netdiscover output](Screenshots/Scanning1.png)
 
 * I performed a full scan using `Nmap` to find open ports and initial OS/service detection for the host 192.168.1.4.
 ![Nmap recon scan output](Screenshots/Nmap2.png)

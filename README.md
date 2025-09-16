@@ -9,8 +9,6 @@ The target system was a Windows 7 operating system installed on a virtual box, n
 
 ---
 
-
-
 ### 2. Network and Service Discovery
 The first step was to identify the live machines on the network using `netdiscover` and perform a full scan with `Nmap` to find open ports and initial OS/service detection.
 
